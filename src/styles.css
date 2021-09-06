@@ -1,0 +1,28 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.virtual-list {
+  border: 1px solid grey;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.virtual-list-block {
+  inset: 0;
+  overflow-y: auto;
+  position: absolute;
+}
+
+.virtual-list-row {
+  position: absolute;
+  width: calc(100% - 33px);
+  border: 1px solid grey;
+  margin: 8px;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
